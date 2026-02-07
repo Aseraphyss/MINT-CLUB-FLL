@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=75.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "min-club-ffl"
+version = "0.1.0"
+requires-python = ">=3.10"
+readme = "README.md"
+
+# Hier kann man Bibliotheken / Libaries / Packages hinzufügen
+dependencies = ["pybricks>=3.6.1", "uMath>=1.0.0"]
